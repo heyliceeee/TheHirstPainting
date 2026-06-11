@@ -1,37 +1,37 @@
 # 🎨 Hirst Dot Painting – Turtle Graphics Project
 
-Este projeto recria um estilo inspirado nas obras de Damien Hirst, utilizando o módulo **turtle** do Python para desenhar uma grelha de pontos coloridos.  
-O resultado é um padrão artístico composto por 100 pontos, cada um com uma cor aleatória retirada de uma paleta pré-definida.
+This project recreates a style inspired by Damien Hirst’s artwork, using Python’s **turtle** module to draw a grid of colorful dots.  
+The result is an artistic pattern made of 100 dots, each with a random color selected from a predefined palette.
 
 ---
 
-## 🐢 Sobre o Projeto
+## 🐢 About the Project
 
-O objetivo deste exercício é praticar:
+The goal of this exercise is to practice:
 
-- Manipulação da biblioteca **turtle**
-- Movimentação da tartaruga no ecrã
-- Uso de **RGB colors** com `colormode(255)`
-- Loops e controlo de fluxo
-- Geração de padrões geométricos
-- Organização de código com comentários claros
+- Working with the **turtle** graphics library  
+- Moving the turtle around the screen  
+- Using **RGB colors** with `colormode(255)`  
+- Loops and control flow  
+- Generating geometric patterns  
+- Writing clean, well‑commented code  
 
-O programa desenha uma grelha de 10x10 pontos, cada um com 20px de diâmetro e espaçados 50px entre si.
-
----
-
-## ✨ Funcionalidades
-
-- 🎨 Paleta de cores personalizada (lista de RGB extraída de uma imagem)
-- 🐢 Movimentação precisa da turtle para criar uma grelha perfeita
-- 🔵 Desenho de pontos com `tim.dot()`
-- ↕️ Mudança automática de linha após cada 10 pontos
-- 🎲 Seleção aleatória de cores para cada ponto
-- 👁️ Turtle escondida para um desenho mais limpo
+The program draws a 10×10 grid of dots, each 20px in diameter and spaced 50px apart.
 
 ---
 
-## 📂 Estrutura do Código
+## ✨ Features
+
+- 🎨 Custom color palette (RGB list extracted from an image)  
+- 🐢 Precise turtle movement to create a perfect grid  
+- 🔵 Dot drawing using `tim.dot()`  
+- ↕️ Automatic line breaks after every 10 dots  
+- 🎲 Random color selection for each dot  
+- 👁️ Hidden turtle for a cleaner drawing  
+
+---
+
+## 📂 Code Structure
 
 ```
 project/
@@ -41,19 +41,19 @@ project/
 ```
 
 ### **main.py**
-Contém:
-- Lista de cores RGB
-- Configuração da turtle
-- Lógica para desenhar a grelha de pontos
-- Movimento automático entre linhas
+Includes:
+- RGB color list  
+- Turtle configuration  
+- Logic for drawing the dot grid  
+- Automatic movement between rows  
 
 ---
 
-## 🧠 Lógica do Desenho
+## 🧠 Drawing Logic
 
-1. A turtle é movida para o canto inferior esquerdo.
-2. Desenha um ponto.
-3. Avança 50px.
-4. Repete até completar 10 pontos.
-5. Sobe uma linha, volta para trás 500px e começa a linha seguinte.
-6. Repete até desenhar 100 pontos.
+1. The turtle moves to the bottom‑left corner.  
+2. Draws a dot.  
+3. Moves forward 50px.  
+4. Repeats until completing 10 dots.  
+5. Moves up one row, goes back 500px, and starts the next line.  
+6. Repeats until all 100 dots are drawn.  
